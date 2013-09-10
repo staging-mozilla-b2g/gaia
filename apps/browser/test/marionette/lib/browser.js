@@ -15,7 +15,8 @@ Browser.URL = 'app://browser.gaiamobile.org';
 Browser.Selectors = {
   'searchBar': '#url-input',
   'searchButton': '#url-button',
-  'mozbrowser': 'iframe[mozbrowser]'
+  'mozbrowser': 'iframe[mozbrowser]',
+  'tabsBadge': '#tabs-badge'
 };
 
 /**
@@ -36,6 +37,10 @@ Browser.prototype = {
     return findElement(this.client, 'searchButton');
   },
 
+  get tabsBadge() {
+    return findElement(this.client, 'tabsBadge');
+  },
+  
   /**
    * Finds iframe of current running tab.
    */
