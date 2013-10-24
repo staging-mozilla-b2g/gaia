@@ -5,6 +5,7 @@ o
 
 Gaia is Mozilla's Phone UX for the Boot to Gecko (B2G) project.
 
+oo
 Boot to Gecko aims to create a complete, standalone operating system for the open web.
 
 You can read more about B2G here:
